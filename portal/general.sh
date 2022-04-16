@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This function displays the welcome screen
+# This function displays the welcome screen.
 function welcome {
     whiptail --title "PI Client Management" \
              --msgbox "\n
@@ -12,6 +12,6 @@ function welcome {
 
                        Press <Enter> to continue "\
              --ok-button "OK" 16 78
-    # This function will take us to the main menu
+    # This function will take us to the main menu.
     #home_menu
 }
